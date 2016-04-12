@@ -4,6 +4,7 @@ package cn.georgeyang.lib.api11;
 import cn.georgeyang.fragment.R;
 
 /**
+ *
  * anim type ,some bug in xml~
  * Created by george.yang on 2015/10/29.
  */
@@ -16,6 +17,7 @@ public enum AnimType {
     ZoomFragment,//Fragment默認放大
     FADE/*渐变 */
     ;
+
     public static int[] getAnimRes (AnimType animType){
         int[] animations;
         switch (animType) {
